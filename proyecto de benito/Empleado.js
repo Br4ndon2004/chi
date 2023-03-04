@@ -1,10 +1,12 @@
 class Empleadoo {
     nombre_de_empleado;
     id;
-    horarios;
-    constructor(empleadoo, ids) {
+    horarioEntrada;
+    horarioSalida;
+    constructor(empleadoo, ids, Horaentrada, Horasalida) {
         this.nombre_de_empleado = empleadoo;
-
+        this.horarioEntrada = Horaentrada; 
+        this.horarioSalida = Horasalida;
         this.id = ids;
     }
 }

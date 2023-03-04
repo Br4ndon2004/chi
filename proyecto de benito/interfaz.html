@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beni xd</title>
+    <title>benito</title>
    
 
 </head>
@@ -22,20 +22,13 @@
            background-repeat: repeat;
            background-size: cover;
            background-size: 100% 100%;
-       }
+        }
    </style>
 
 
     <marquee  face="Arial Narrow" behavior="alternate" bgcolor="#efcc8c">
         <font color="black" size="5">
-            <center>MARCA DE ROPA GOD<br>
-            Materia: Programacion orientada a objetos</center></font></marquee>
-
-
-
-
-
-      
+            <center>MARCA DE ROPA GOD<br>Materia: Programacion orientada a objetos</center></font></marquee>
 
      <center> <br> <label  for="sucursal" style="background-color: #efcc8c" font color="black"  font-size="16px"> Ingresa el nombre de la sucursal </label></br>
         <input type="text" name="nam" id="nam">
@@ -50,7 +43,10 @@
             <label for="" style="background-color: #efcc8c"> Id del empleado</label><br>
             <input type="text" name="ide" id="ide">
             
-            <br><label for="" style="background-color: #efcc8c"> Horarios</label></br>
+            <br><label for="" style="background-color: #efcc8c"> Horar de entrada</label></br>
+            <input type="time">
+            </div>
+            <br><label for="" style="background-color: #efcc8c"> Hora de salida</label></br>
             <input type="time">
             </div>
              <p><button onclick="ingresaempleado()" >Guardar empleado   </button></p></div></center>
@@ -58,21 +54,30 @@
    
     <center><br><label for="" style="background-color: #efcc8c">Ingresa los datos de tu ropa</label></br>
 
-
+        <br><label for="" style="background-color: #efcc8c">tipo de prenda</label></br>
+        <input type="text" name="prend" id="prend">
+       <form>
+        escriba alguna de las prendas que se encuentran en la lista en la casilla
+        <select>
+            <option>camisa</option>
+            <option>pantalon</option>
+            <option>sudadera</option>
+            <option>short</option>
+        </select>
+        </form>
         <br><label for="" style="background-color: #efcc8c">Talla</label></br>
         <input type="text" name="tal" id="tal">
-    
        <br> <label for="" style="background-color: #efcc8c">Marca</label></br>
         <input type="text" name="marc" id="marc">
     
-    
-    
         <br><label  for="" style="background-color: #efcc8c">Corte</label></br>
         <input type="text" name="cortes" id="cortes">
-    
-        <p><button style= background-color:hwb (150 33% 14%);>Guardar ropa </button></p>
-        </b></center>
+        <p><button onclick="nombredelaropa()" style= background-color:hwb (150 33% 14%);>Guardar ropa </button></p>
+        
+        <p><button style= background-color:hwb (150 33% 14%);>Borrar prenda </button></p>
+        <p><button style= background-color:hwb (150 33% 14%);>Actualizar prenda </button></p>
 
+        </b></center>
   
 
 <script src="Sucursal.js"></script>
@@ -82,4 +87,4 @@
 </body>
 
 
-</html>
+
