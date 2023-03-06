@@ -1,0 +1,3 @@
+class Principal extends Empleadoo {
+
+}
