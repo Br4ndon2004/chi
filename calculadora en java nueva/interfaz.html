@@ -1,0 +1,218 @@
+<html>
+    <head></head>
+    <style>
+        .marco {
+            background-color: rgba(111, 42, 175, 0.671);
+            border: 4px solid rgb(12, 245, 245);
+            padding: 25px;
+            width: 150;
+            width: 150;
+
+        }
+            input {
+            border: 3px solid rgb(12, 245, 245);
+            padding: 2px;
+            width: 100;
+        }
+    </style>
+    <body bgcolor="179CBF">
+
+        <div class="marco">
+        <center>
+        <input type="text" id="resultado" name="c1" readonly placeholder="Ingrese un numero">
+        
+        <br>
+        <br>
+        <button onclick="agregarnumero(1)">1</button>
+        <button onclick="agregarnumero(2)">2</button>
+        <button onclick="agregarnumero(3)">3</button>
+        <br>
+        <button onclick="agregarnumero(4)">4</button>
+        <button onclick="agregarnumero(5)">5</button>
+        <button onclick="agregarnumero(6)">6</button>
+        <br>
+        <button onclick="agregarnumero(7)">7</button>
+        <button onclick="agregarnumero(8)">8</button>
+        <button onclick="agregarnumero(9)">9</button>
+        <br>
+        <button onclick="agregarnumero(0)">0</button>
+            <br>
+            <button onclick="agregaroperador('+')">+</button>
+      
+            <button onclick="resta()">-</button>
+            <br>
+            <button onclick="multi()">*</button>
+            <button onclick="div()">/</button>
+            <button onclick="raiz()">r</button>
+            <br>
+            <button onclick="potencia()">p</button>
+            <button onclick="mem()">m</button>
+            <button onclick="borrar()">c</button>
+            <br>
+            <button onclick="restultado()">=</button>
+            <button onclick="punto()">.</button>
+            </center>
+
+    
+            <script>
+              var auxcall = 1
+
+                function siete(){
+          
+                  if(auxcall == 1){
+                    c1 = document.getElementById("c1").value
+                    nfinal1 = c1 + 7
+                    document.getElementById("c1").value=nfinal1
+                  }
+                    if(auxcall == 2){
+                      c1 = document.getElementById("c1").value
+                      nfinal2 = c1 + 7
+                      document.getElementById("c1").value = nfinal2
+                    }
+                  }
+                
+                function ocho(){
+                  if(auxcall == 1){
+                    c1 = document.getElementById("c1").value
+                    nfinal1 = c1 + 8
+                    document.getElementById("c1").value=nfinal1
+                  }
+                  if(auxcall == 2){
+                      c1 = document.getElementById("c1").value
+                      nfinal2 = c1 + 8
+                      document.getElementById("c1").value = nfinal2
+                    }
+                }
+                function nueve(){
+                  if(auxcall == 1){
+                    c1 = document.getElementById("c1").value
+                    nfinal1 = c1 + 9
+                    document.getElementById("c1").value=nfinal1
+                  }
+                  if(auxcall == 2){
+                      c1 = document.getElementById("c1").value
+                      nfinal2 = c1 + 9
+                      document.getElementById("c1").value = nfinal2
+                    }
+                }
+                function cuatro(){
+                  if(auxcall == 1){
+                    c1 = document.getElementById("c1").value
+                    nfinal1 = c1 + 4
+                    document.getElementById("c1").value=nfinal1
+                  }
+                  if(auxcall == 2){
+                      c1 = document.getElementById("c1").value
+                      nfinal2 = c1 + 7
+                      document.getElementById("c1").value = nfinal2
+                    }
+                }
+                function cinco(){
+                  if(auxcall == 1){
+                    c1 = document.getElementById("c1").value
+                    nfinal1 = c1 + 5
+                    document.getElementById("c1").value=nfinal1
+                  }
+                  if(auxcall == 2){
+                      c1 = document.getElementById("c1").value
+                      nfinal2 = c1 + 5
+                      document.getElementById("c1").value = nfinal2
+                    }
+                }
+                function seis(){
+                  if(auxcall == 1){
+                    c1 = document.getElementById("c1").value
+                    nfinal1 = c1 + 6
+                    document.getElementById("c1").value=nfinal1
+                  }
+                  if(auxcall == 2){
+                      c1 = document.getElementById("c1").value
+                      nfinal2 = c1 + 6
+                      document.getElementById("c1").value = nfinal2
+                    }
+                }
+                function uno(){
+                  if(auxcall == 1){
+                    c1 = document.getElementById("c1").value
+                    nfinal1 = c1 + 1
+                    document.getElementById("c1").value=nfinal1
+                  }
+                  if(auxcall == 2){
+                      c1 = document.getElementById("c1").value
+                      nfinal2 = c1 + 1
+                      document.getElementById("c1").value = nfinal2
+                    }
+                }
+                function dos(){
+                  if(auxcall == 1){
+                    c1 = document.getElementById("c1").value
+                    nfinal1 = c1 + 2
+                    document.getElementById("c1").value=nfinal1
+                  }
+                  if(auxcall == 2){
+                      c1 = document.getElementById("c1").value
+                      nfinal1 = c1 + 2
+                      document.getElementById("c1").value = nfinal2
+                    }
+                }
+                function tres(){
+                  if(auxcall == 1){
+                    c1 = document.getElementById("c1").value
+                    nfinal1 = c1 + 3
+                    document.getElementById("c1").value=nfinal1
+                  }
+                  if(auxcall == 2){
+                      c1 = document.getElementById("c1").value
+                      nfinal2 = c1 + 3
+                      document.getElementById("c1").value = nfinal2
+                    }
+                }
+                function suma(){
+                  
+                  }
+                function cero(){
+                  if(auxcall == 1){
+                    c1 = document.getElementById("c1").value
+                    nfinal1 = c1 + 0
+                    document.getElementById("c1").value=nfinal1
+                  }
+                  if(auxcall == 2){
+                      c1 = document.getElementById("c1").value
+                      nfinal2 = c1 + 0
+                      document.getElementById("c1").value = nfinal2
+                    }
+
+                }
+                function resta(){
+
+                }
+                function multi(){
+
+                }
+                function div(){
+
+                }
+                function raiz(){
+
+                }
+                function potencia(){
+
+                }
+                function mem(){
+
+                }
+                function borrar(){
+
+                }
+                function restultado(){
+
+                }
+                function punto(){
+                  
+
+                }
+
+        </script>
+    </body>
+    <script src="jss.js"></script>
+</html>
